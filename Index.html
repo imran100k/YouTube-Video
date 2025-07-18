@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আমার টেলিগ্রাম মিনি অ্যাপ</title>
+    <script data-cfasync="false" type="text/javascript" src="//pl12345.highrevenuegate.com/ab/cd/ef/abcd12345efgh.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f0f2f5; }
+        .video-container { margin-bottom: 20px; background-color: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        video { width: 100%; border-radius: 6px; }
+        h2 { color: #333; }
+        p { color: #666; }
+        .ad-placeholder { width: 100%; height: 250px; background-color: #eee; border: 1px dashed #ccc; display: flex; justify-content: center; align-items: center; color: #888; font-size: 1.2em; }
+    </style>
+</head>
+<body>
+    <h1>স্বাগতম আমার মিনি অ্যাপে!</h1>
+
+    <div class="video-container">
+        <h2>আমার প্রথম ভিডিও</h2>
+        <video controls>
+            <source src="your-video-url.mp4" type="video/mp4">
+            আপনার ব্রাউজার ভিডিও সমর্থন করে না।
+        </video>
+        <p>এটি একটি ডেমো ভিডিও। এখানে আপনার ভিডিওর বর্ণনা থাকবে।</p>
+    </div>
+
+    <button onclick="showMonetagAd()">বিজ্ঞাপন দেখুন</button>
+
+    <div class="video-container">
+        <h2>আমার দ্বিতীয় ভিডিও</h2>
+        <video controls>
+            <source src="another-video-url.mp4" type="video/mp4">
+            আপনার ব্রাউজার ভিডিও সমর্থন করে না।
+        </video>
+        <p>এটি আরেকটি ডেমো ভিডিও।</p>
+    </div>
+
+    <script>
+        // Monetag ইন্টারস্টিশিয়াল বিজ্ঞাপন দেখানোর জন্য ফাংশন (উদাহরণ)
+        function showMonetagAd() {
+            // এখানে আপনার Monetag ইন্টারস্টিশিয়াল অ্যাড কোড (যদি আলাদা থাকে) বা ফাংশন কল করতে হবে
+            // Monetag তাদের ডকুমেন্টেশনে specific ফাংশন কল করার উদাহরণ দেয়।
+            // সাধারণত, <script> ট্যাগে যুক্ত হওয়ার পর Monetag স্বয়ংক্রিয়ভাবে বিজ্ঞাপন লোড করতে পারে
+            // অথবা নির্দিষ্ট ইভেন্টে তাদের API কল করতে হতে পারে।
+            alert("বিজ্ঞাপন লোড হচ্ছে..."); // এটি শুধু একটি ডেমো বার্তা
+            // Monetag SDK ডকুমেন্টেশন দেখুন কিভাবে প্রোগ্রাম্যাটিকভাবে বিজ্ঞাপন ট্রিগার করতে হয়।
+            // উদাহরণস্বরূপ: Monetag.showInterstitial();
+        }
+
+        // ভিডিও শেষ হলে বিজ্ঞাপন দেখানোর উদাহরণ
+        document.querySelector('.video-container video').addEventListener('ended', function() {
+            console.log('ভিডিও শেষ হয়েছে, বিজ্ঞাপন দেখানোর চেষ্টা করছি।');
+            // showMonetagAd(); // ভিডিও শেষ হলে বিজ্ঞাপন ট্রিগার করুন
+        });
+    </script>
+</body>
+</html>
 
